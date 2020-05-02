@@ -9,8 +9,8 @@
 * [CSS3] - Linguagem de estilização usada
 * [HTML5] - Linguagem de marcação usada
 
-##Agradecimentos 
-https://codecollege.ca/ 
+# Agradecimentos 
+* https://codecollege.ca/ 
 
 ## Conhecimentos
 
