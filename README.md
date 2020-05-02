@@ -1,8 +1,8 @@
 # CSS3 em 30 dias
 > Conjunto de pequenos projetos de estilização com css3. 
 
-##Objetivo
->> Aprimorar habilidades de estilização já existentes.
+# Objetivo
+> Aprimorar habilidades de estilização já existentes.
 
 ## Construído com
 
