@@ -1,0 +1,105 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+
+   /**=====================
+         Layout 1
+========================*/
+.layout1 article{
+    width: 68%;
+    float: left;
+}
+
+.layout1 aside {
+    width: 30%;
+    float: right;
+}
+
+.layout1 footer {
+    clear: both;
+}
+/**=================
+    Layout 2
+===================*/
+
+.layout2 header .logo {
+    float: left;
+    width: 20%;
+    margin: 0;
+}
+.layout2 header nav {
+    float: right;
+    width: 75%;
+    margin: 0;
+}
+/* limpagem fixa para evitar o calapso */
+.layout2 header::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.layout2 article {
+  width: 50%;
+  margin-left: 2%;
+  float: left;
+}
+
+.layout2 aside.sidenav {
+  width: 23%;
+  float: left;
+}
+
+.layout2 aside.sidebar {
+  width: 23%;
+  float: right;
+}
+
+.layout2 footer {
+  clear: both;
+}
+/* =========================
+        Layout 3
+   ========================= */
+
+ .layout3 header .logo {
+  width: 20%;
+  float: right;
+  margin: 0;
+}
+
+.layout3 header nav {
+  width: 78%;
+  float: left;
+  margin: 0;
+}
+
+/* simple clearfix to prevent collapse */
+.layout3 header::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.layout3 article {
+  width: 32%;
+  float: left;
+  margin: 0 2% 0 0;
+}
+
+  /* clear margin of last article to allow it to fit within layout */
+  .layout3 article:last-child {
+    margin: 0;
+  }
+
+/* simple clearfix to prevent collapse */
+.layout3 .articles::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+  
+
+  
